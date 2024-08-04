@@ -19,7 +19,7 @@ You win when all nodes have been correctly displayed.
 ```
 Example
 <p align="center">   
-    <img src="0.png">
+    <img src="0.png" width=50%>
 	In this example, there are three nodes in a 2 by 2 grid. The cell at (1,1) is empty.
 </p>
 
