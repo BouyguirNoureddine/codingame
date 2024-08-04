@@ -13,38 +13,38 @@ You lose if:
 *   You compute the same node twice.
 *   You forget to compute the neighbors of a node.
  
-'''
+```
 # Victory Conditions
 You win when all nodes have been correctly displayed.
-'''
+```
 Example
-<span align="center">   
-    <img href="0.png">
+<p align="center">   
+    <img src="0.png">
 	In this example, there are three nodes in a 2 by 2 grid. The cell at (1,1) is empty.
-</span>
+</p>
 
-<span align="center">   
-    <img href="1.png">
+<p align="center">   
+    <img src="1.png">
 	The node at (0,0) has 2 neighbors.
-</span>
+</p>
 
-<span align="center">   
-    <img href="2.png">
+<p align="center">   
+    <img src="2.png">
 	The node at (1,0) has no neighbors.
-</span>
+</p>
 
-<span align="center">   
-    <img href="3.png">
+<p align="center">   
+    <img src="3.png">
 	The node at (0,1) has no neighbors.
-</span>
+</p>
  
 
 # Note
 Don’t forget to run the tests by launching them from the “Test cases” window.
 
-'''
+```
 Warning: the tests provided are similar to the validation tests used to compute the final score but remain different. This is a "hardcoding" prevention mechanism. Harcoded solutions will not get any points.
-'''
+```
 
 Regarding the viewer, note that:
 A debug mode is available from the settings panel (the dented wheel)
@@ -57,15 +57,15 @@ Initialization input
 
 * Line 2: one integer height for the number of cells along the y axis.
 
-'''
+```
 Next height lines: A string  line  containing  width  characters. A dot . represents an empty cell. A zero 0 represents a cell containing a node.
-'''
+```
 
 # Output for one game turn
 One line per node. Six integers on each line:   x1  y1  x2  y2  x3  y3
 
 # Where:
-'''
+```
 (x1,y1) the coordinates of a node
 (x2,y2) the coordinates of the closest neighbor on the right of the node
 (x3,y3) the coordinates of the closest bottom neighbor
@@ -79,4 +79,4 @@ Constraints
 -1 ≤ y2, y3 < height
 Alloted response time to first output line ≤ 1s.
 Response time between two output lines ≤ 100ms
-'''
+```
