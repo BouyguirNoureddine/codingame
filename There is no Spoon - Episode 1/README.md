@@ -1,6 +1,8 @@
 # The Goal
+```
 The game is played on a rectangular grid with a given size. Some cells contain power nodes. The rest of the cells are empty.
-
+```
+---
 The goal is to find, when they exist, the horizontal and vertical neighbors of each node.
 # Rules
 To do this, you must find each (x1,y1) coordinates containing a node, and display the (x2,y2) coordinates of the next node to the right, and the (x3,y3) coordinates of the next node to the bottom within the grid.
@@ -17,27 +19,7 @@ You lose if:
 # Victory Conditions
 You win when all nodes have been correctly displayed.
 ```
-Example
-<p align="center">   
-    <img src="0.png" width=50% align="left">
-	<p >In this example, there are three nodes in a 2 by 2 grid. The cell at (1,1) is empty.</p>
-</p>
-<br>
-<p align="center">   
-    <img src="1.png">
-	The node at (0,0) has 2 neighbors.
-</p>
 
-<p align="center">   
-    <img src="2.png">
-	The node at (1,0) has no neighbors.
-</p>
-
-<p align="center">   
-    <img src="3.png">
-	The node at (0,1) has no neighbors.
-</p>
- 
 
 # Note
 Don’t forget to run the tests by launching them from the “Test cases” window.
