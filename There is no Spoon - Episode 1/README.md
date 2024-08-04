@@ -1,6 +1,7 @@
 # The Goal
 ```
-The game is played on a rectangular grid with a given size. Some cells contain power nodes. The rest of the cells are empty.
+The game is played on a rectangular grid with a given size. 
+Some cells contain power nodes. The rest of the cells are empty.
 ```
 ---
 The goal is to find, when they exist, the horizontal and vertical neighbors of each node.
@@ -16,8 +17,8 @@ You lose if:
 *   You forget to compute the neighbors of a node.
  
 ```
-# Victory Conditions
-You win when all nodes have been correctly displayed.
+Victory Conditions
+    You win when all nodes have been correctly displayed.
 ```
 
 
@@ -25,7 +26,9 @@ You win when all nodes have been correctly displayed.
 Don’t forget to run the tests by launching them from the “Test cases” window.
 
 ```
-Warning: the tests provided are similar to the validation tests used to compute the final score but remain different. This is a "hardcoding" prevention mechanism. Harcoded solutions will not get any points.
+Warning: the tests provided are similar to the validation tests used
+to compute the final score but remain different. This is a "hardcoding"
+prevention mechanism. Harcoded solutions will not get any points.
 ```
 
 Regarding the viewer, note that:
@@ -40,11 +43,12 @@ Initialization input
 * Line 2: one integer height for the number of cells along the y axis.
 
 ```
-Next height lines: A string  line  containing  width  characters. A dot . represents an empty cell. A zero 0 represents a cell containing a node.
+Next height lines: A string  line  containing  width  characters.
+A dot . represents an empty cell. A zero 0 represents a cell containing a node.
 ```
 
 # Output for one game turn
-One line per node. Six integers on each line:   x1  y1  x2  y2  x3  y3
+## One line per node. Six integers on each line:   x1  y1  x2  y2  x3  y3
 
 # Where:
 ```
